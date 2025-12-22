@@ -1,0 +1,18 @@
+# Hadith Shar7 Embedding Pipeline Requirements
+
+# Core embedding library
+sentence-transformers>=2.2.0
+
+# ML frameworks (sentence-transformers will install these, but explicit is better)
+torch>=2.0.0
+transformers>=4.30.0
+
+# Data processing
+numpy>=1.24.0
+
+# Optional: For faster inference on GPU
+# accelerate>=0.20.0
+
+# Optional: For Arabic NLP (if you want advanced preprocessing)
+# camel-tools>=1.5.0
+# pyarabic>=0.6.15
